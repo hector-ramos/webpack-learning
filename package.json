@@ -1,0 +1,25 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "Learn How to Use Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/main.js dist/bundle.js",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hector-ramos/webpack-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hector-ramos/webpack-learning/issues"
+  },
+  "homepage": "https://github.com/hector-ramos/webpack-learning#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
